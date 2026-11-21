@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="128" viewBox="0 0 860 128" role="img" aria-label="Destaques: mais de 5 anos de experiência, fundador da Nation Resources em 2020, melhor média entre os formandos, 3 idiomas">
+<title>Destaques: mais de 5 anos de experiência, fundador da Nation Resources em 2020, melhor média entre os formandos, 3 idiomas</title>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0c1527"/>
+    <stop offset="1" stop-color="#070d19"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#1f3355" stroke-width="0.6" opacity="0.45"/>
+  </pattern>
+  <clipPath id="cardClip"><rect width="860" height="128" rx="14"/></clipPath>
+  
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; }
+  .sans { font-family: system-ui,-apple-system,'Segoe UI','Inter','Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .fade { opacity: 0; animation: fadeIn .5s ease-out forwards; }
+  .rise { opacity: 0; animation: rise .6s cubic-bezier(.2,.8,.2,1) forwards; }
+  .blink { animation: blink 1s steps(1) infinite; }
+  .pulse { animation: pulse 2s ease-in-out infinite; }
+  @keyframes fadeIn { to { opacity: 1; } }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; }
+  }
+</style>
+<g clip-path="url(#cardClip)">
+  <rect width="860" height="128" fill="url(#bgGrad)"/>
+  <rect width="860" height="128" fill="url(#grid)"/>
+  <g class="rise" style="animation-delay:0.20s"><rect x="20.0" y="20" width="196.0" height="88" rx="10" fill="#101c33" stroke="#1f3355"/><circle cx="60.0" cy="64" r="24" fill="none" stroke="#1f3355" stroke-width="5"/><circle cx="60.0" cy="64" r="24" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round" transform="rotate(-90 60.0 64)" stroke-dasharray="150.8" stroke-dashoffset="150.8"><animate attributeName="stroke-dashoffset" from="150.8" to="0.0" dur="1.4s" begin="0.40s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></circle><text x="60.0" y="70" font-size="16" font-weight="800" class="sans" fill="#2dd4bf" text-anchor="middle">5+</text><text x="96.0" y="60" font-size="13" font-weight="700" class="sans" fill="#e6edf7">anos de código</text><text x="96.0" y="79" font-size="11" fill="#8a9bb8">produtos próprios</text></g>
+  <g class="rise" style="animation-delay:0.40s"><rect x="228.0" y="20" width="196.0" height="88" rx="10" fill="#101c33" stroke="#1f3355"/><circle cx="268.0" cy="64" r="24" fill="none" stroke="#1f3355" stroke-width="5"/><circle cx="268.0" cy="64" r="24" fill="none" stroke="#fbbf24" stroke-width="5" stroke-linecap="round" transform="rotate(-90 268.0 64)" stroke-dasharray="150.8" stroke-dashoffset="150.8"><animate attributeName="stroke-dashoffset" from="150.8" to="0.0" dur="1.4s" begin="0.60s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></circle><text x="268.0" y="70" font-size="12" font-weight="800" class="sans" fill="#fbbf24" text-anchor="middle">2020</text><text x="304.0" y="60" font-size="13" font-weight="700" class="sans" fill="#e6edf7">Nation Resources</text><text x="304.0" y="79" font-size="11" fill="#8a9bb8">fundada e ativa</text></g>
+  <g class="rise" style="animation-delay:0.60s"><rect x="436.0" y="20" width="196.0" height="88" rx="10" fill="#101c33" stroke="#1f3355"/><circle cx="476.0" cy="64" r="24" fill="none" stroke="#1f3355" stroke-width="5"/><circle cx="476.0" cy="64" r="24" fill="none" stroke="#a78bfa" stroke-width="5" stroke-linecap="round" transform="rotate(-90 476.0 64)" stroke-dasharray="150.8" stroke-dashoffset="150.8"><animate attributeName="stroke-dashoffset" from="150.8" to="0.0" dur="1.4s" begin="0.80s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></circle><text x="476.0" y="70" font-size="16" font-weight="800" class="sans" fill="#a78bfa" text-anchor="middle">1º</text><text x="512.0" y="60" font-size="13" font-weight="700" class="sans" fill="#e6edf7">melhor média</text><text x="512.0" y="79" font-size="11" fill="#8a9bb8">entre formandos</text></g>
+  <g class="rise" style="animation-delay:0.80s"><rect x="644.0" y="20" width="196.0" height="88" rx="10" fill="#101c33" stroke="#1f3355"/><circle cx="684.0" cy="64" r="24" fill="none" stroke="#1f3355" stroke-width="5"/><circle cx="684.0" cy="64" r="24" fill="none" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" transform="rotate(-90 684.0 64)" stroke-dasharray="150.8" stroke-dashoffset="150.8"><animate attributeName="stroke-dashoffset" from="150.8" to="45.2" dur="1.4s" begin="1.00s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></circle><text x="684.0" y="70" font-size="16" font-weight="800" class="sans" fill="#60a5fa" text-anchor="middle">3</text><text x="720.0" y="60" font-size="13" font-weight="700" class="sans" fill="#e6edf7">idiomas</text><text x="720.0" y="79" font-size="11" fill="#8a9bb8">pt · en · es</text></g>
+</g>
+<rect x="0.5" y="0.5" width="859" height="127" rx="14" fill="none" stroke="#1f3355"/>
+</svg>

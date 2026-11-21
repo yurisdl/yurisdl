@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="425" viewBox="0 0 860 425" role="img" aria-label="Sobre mim: Yuri Souza de Lima, desenvolvedor de software em Porto Alegre, formado em Ciência da Computação">
+<title>Sobre mim: Yuri Souza de Lima, desenvolvedor de software em Porto Alegre, formado em Ciência da Computação</title>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0c1527"/>
+    <stop offset="1" stop-color="#070d19"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#1f3355" stroke-width="0.6" opacity="0.45"/>
+  </pattern>
+  <clipPath id="cardClip"><rect width="860" height="425" rx="14"/></clipPath>
+  
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; }
+  .sans { font-family: system-ui,-apple-system,'Segoe UI','Inter','Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .fade { opacity: 0; animation: fadeIn .5s ease-out forwards; }
+  .rise { opacity: 0; animation: rise .6s cubic-bezier(.2,.8,.2,1) forwards; }
+  .blink { animation: blink 1s steps(1) infinite; }
+  .pulse { animation: pulse 2s ease-in-out infinite; }
+  @keyframes fadeIn { to { opacity: 1; } }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; }
+  }
+</style>
+<g clip-path="url(#cardClip)">
+  <rect width="860" height="425" fill="url(#bgGrad)"/>
+  <rect width="860" height="425" fill="url(#grid)"/>
+  <rect x="0" y="0" width="860" height="36" fill="#070d19"/>
+  <circle cx="20" cy="18" r="5" fill="#fb7185"/><circle cx="36" cy="18" r="5" fill="#fbbf24"/><circle cx="52" cy="18" r="5" fill="#2dd4bf"/>
+  <rect x="80" y="6" width="104" height="30" rx="6" fill="#0c1527"/><rect x="80" y="34" width="104" height="2" fill="#2dd4bf"/><text x="96" y="25" font-size="12" fill="#e6edf7"><tspan fill="#60a5fa">◆</tspan> yuri.lua</text><text x="204" y="25" font-size="12" fill="#4a5d7e"><tspan fill="#4a5d7e">◆</tspan> fxmanifest.lua</text><text x="360" y="25" font-size="12" fill="#4a5d7e">{} package.json</text>
+  <rect x="0" y="36" width="52" height="363" fill="#070d19" opacity=".55"/>
+  <text x="38" y="70" font-size="12" fill="#4a5d7e" text-anchor="end">1</text>
+  <clipPath id="l0"><rect x="64" y="55" height="20" width="0"><animate attributeName="width" from="0" to="369" dur="0.54s" begin="0.30s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="70" font-size="13" xml:space="preserve" clip-path="url(#l0)"><tspan fill="#4a5d7e" font-style="italic">-- yuri.lua · resource principal deste perfil</tspan></text>
+  <text x="38" y="91" font-size="12" fill="#4a5d7e" text-anchor="end">2</text>
+  <clipPath id="l1"><rect x="64" y="76" height="20" width="0"><animate attributeName="width" from="0" to="128" dur="0.25s" begin="0.90s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="91" font-size="13" xml:space="preserve" clip-path="url(#l1)"><tspan fill="#a78bfa">local</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#60a5fa">Yuri</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">{</tspan></text>
+  <text x="38" y="112" font-size="12" fill="#4a5d7e" text-anchor="end">3</text>
+  <clipPath id="l2"><rect x="64" y="97" height="20" width="0"><animate attributeName="width" from="0" to="322" dur="0.47s" begin="1.21s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="112" font-size="13" xml:space="preserve" clip-path="url(#l2)"><tspan fill="#e6edf7">    </tspan><tspan fill="#60a5fa">nome</tspan><tspan fill="#e6edf7">        </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;Yuri Souza de Lima&quot;</tspan><tspan fill="#8a9bb8">,</tspan></text>
+  <text x="38" y="133" font-size="12" fill="#4a5d7e" text-anchor="end">4</text>
+  <clipPath id="l3"><rect x="64" y="118" height="20" width="0"><animate attributeName="width" from="0" to="376" dur="0.55s" begin="1.74s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="133" font-size="13" xml:space="preserve" clip-path="url(#l3)"><tspan fill="#e6edf7">    </tspan><tspan fill="#60a5fa">cargo</tspan><tspan fill="#e6edf7">       </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;Desenvolvedor de Software&quot;</tspan><tspan fill="#8a9bb8">,</tspan></text>
+  <text x="38" y="154" font-size="12" fill="#4a5d7e" text-anchor="end">5</text>
+  <clipPath id="l4"><rect x="64" y="139" height="20" width="0"><animate attributeName="width" from="0" to="477" dur="0.71s" begin="2.35s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="154" font-size="13" xml:space="preserve" clip-path="url(#l4)"><tspan fill="#e6edf7">    </tspan><tspan fill="#60a5fa">foco</tspan><tspan fill="#e6edf7">        </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">{</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;back-end&quot;</tspan><tspan fill="#8a9bb8">,</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;APIs&quot;</tspan><tspan fill="#8a9bb8">,</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;infraestrutura&quot;</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">}</tspan><tspan fill="#8a9bb8">,</tspan></text>
+  <text x="38" y="175" font-size="12" fill="#4a5d7e" text-anchor="end">6</text>
+  <clipPath id="l5"><rect x="64" y="160" height="20" width="0"><animate attributeName="width" from="0" to="307" dur="0.44s" begin="3.12s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="175" font-size="13" xml:space="preserve" clip-path="url(#l5)"><tspan fill="#e6edf7">    </tspan><tspan fill="#60a5fa">base</tspan><tspan fill="#e6edf7">        </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;Porto Alegre, RS&quot;</tspan><tspan fill="#8a9bb8">,</tspan></text>
+  <text x="38" y="196" font-size="12" fill="#4a5d7e" text-anchor="end">7</text>
+  <clipPath id="l6"><rect x="64" y="181" height="20" width="0"><animate attributeName="width" from="0" to="415" dur="0.61s" begin="3.62s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="196" font-size="13" xml:space="preserve" clip-path="url(#l6)"><tspan fill="#e6edf7">    </tspan><tspan fill="#60a5fa">formacao</tspan><tspan fill="#e6edf7">    </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;Ciência da Computação · UNIFIN&quot;</tspan><tspan fill="#8a9bb8">,</tspan></text>
+  <text x="38" y="217" font-size="12" fill="#4a5d7e" text-anchor="end">8</text>
+  <clipPath id="l7"><rect x="64" y="202" height="20" width="0"><animate attributeName="width" from="0" to="423" dur="0.62s" begin="4.29s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="217" font-size="13" xml:space="preserve" clip-path="url(#l7)"><tspan fill="#e6edf7">    </tspan><tspan fill="#60a5fa">destaque</tspan><tspan fill="#e6edf7">    </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;Melhor média entre os formandos&quot;</tspan><tspan fill="#8a9bb8">,</tspan></text>
+  <text x="38" y="238" font-size="12" fill="#4a5d7e" text-anchor="end">9</text>
+  <clipPath id="l8"><rect x="64" y="223" height="20" width="0"><animate attributeName="width" from="0" to="454" dur="0.67s" begin="4.98s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="238" font-size="13" xml:space="preserve" clip-path="url(#l8)"><tspan fill="#e6edf7">    </tspan><tspan fill="#60a5fa">experiencia</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#fbbf24">5</tspan><tspan fill="#8a9bb8">,</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#4a5d7e" font-style="italic">-- anos criando produtos para FiveM</tspan></text>
+  <text x="38" y="259" font-size="12" fill="#4a5d7e" text-anchor="end">10</text>
+  <clipPath id="l9"><rect x="64" y="244" height="20" width="0"><animate attributeName="width" from="0" to="586" dur="0.88s" begin="5.71s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="259" font-size="13" xml:space="preserve" clip-path="url(#l9)"><tspan fill="#e6edf7">    </tspan><tspan fill="#60a5fa">idiomas</tspan><tspan fill="#e6edf7">     </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">{</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#60a5fa">pt</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;nativo&quot;</tspan><tspan fill="#8a9bb8">,</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#60a5fa">en</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;intermediário&quot;</tspan><tspan fill="#8a9bb8">,</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#60a5fa">es</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">=</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;básico&quot;</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#8a9bb8">}</tspan><tspan fill="#8a9bb8">,</tspan></text>
+  <text x="38" y="280" font-size="12" fill="#4a5d7e" text-anchor="end">11</text>
+  <clipPath id="l10"><rect x="64" y="265" height="20" width="0"><animate attributeName="width" from="0" to="28" dur="0.25s" begin="6.65s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="280" font-size="13" xml:space="preserve" clip-path="url(#l10)"><tspan fill="#8a9bb8">}</tspan></text>
+  <text x="38" y="301" font-size="12" fill="#4a5d7e" text-anchor="end">12</text>
+  <text x="38" y="322" font-size="12" fill="#4a5d7e" text-anchor="end">13</text>
+  <clipPath id="l12"><rect x="64" y="307" height="20" width="0"><animate attributeName="width" from="0" to="183" dur="0.25s" begin="7.06s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="322" font-size="13" xml:space="preserve" clip-path="url(#l12)"><tspan fill="#a78bfa">function</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#e6edf7">Yuri</tspan><tspan fill="#8a9bb8">:</tspan><tspan fill="#e6edf7">agora</tspan><tspan fill="#8a9bb8">(</tspan><tspan fill="#8a9bb8">)</tspan></text>
+  <text x="38" y="343" font-size="12" fill="#4a5d7e" text-anchor="end">14</text>
+  <clipPath id="l13"><rect x="64" y="328" height="20" width="0"><animate attributeName="width" from="0" to="539" dur="0.80s" begin="7.37s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="343" font-size="13" xml:space="preserve" clip-path="url(#l13)"><tspan fill="#e6edf7">    </tspan><tspan fill="#a78bfa">return</tspan><tspan fill="#e6edf7"> </tspan><tspan fill="#a3e635">&quot;evoluindo a Nation Resources e aberto a novos desafios&quot;</tspan></text>
+  <text x="38" y="364" font-size="12" fill="#4a5d7e" text-anchor="end">15</text>
+  <clipPath id="l14"><rect x="64" y="349" height="20" width="0"><animate attributeName="width" from="0" to="43" dur="0.25s" begin="8.23s" fill="freeze"/></rect></clipPath>
+  <text x="64" y="364" font-size="13" xml:space="preserve" clip-path="url(#l14)"><tspan fill="#a78bfa">end</tspan></text>
+  <rect x="89" y="351" width="2" height="17" fill="#2dd4bf" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.01;.5;.51" dur="1s" begin="8.54s" repeatCount="indefinite"/></rect>
+  <rect x="0" y="399" width="860" height="26" fill="#14b8a6" fill-opacity=".14"/><path d="M0 399H860" stroke="#1f3355"/><circle cx="20" cy="412" r="4" fill="#2dd4bf" class="pulse"/><text x="32" y="416" font-size="11" fill="#2dd4bf">nation:prod</text><text x="130" y="416" font-size="11" fill="#8a9bb8">main ✓</text><text x="844" y="416" font-size="11" fill="#8a9bb8" text-anchor="end">Ln 15, Col 4   ·   Lua   ·   UTF-8   ·   LF</text>
+</g>
+<rect x="0.5" y="0.5" width="859" height="424" rx="14" fill="none" stroke="#1f3355"/>
+</svg>

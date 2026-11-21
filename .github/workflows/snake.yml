@@ -1,0 +1,32 @@
+name: snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Gerar a cobrinha das contribuições
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#14b8a6&color_dots=#ebedf0,#99f6e4,#2dd4bf,#14b8a6,#0f766e
+            dist/snake-dark.svg?color_snake=#2dd4bf&color_dots=#101c33,#134e4a,#0f766e,#14b8a6,#2dd4bf
+
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

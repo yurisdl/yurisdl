@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="356" viewBox="0 0 860 356" role="img" aria-label="Arquitetura: jogador e servidor FiveM em Lua, API própria em Node.js e Express para auth e licenças, MySQL, Mercado Pago e Discord">
+<title>Arquitetura: jogador e servidor FiveM em Lua, API própria em Node.js e Express para auth e licenças, MySQL, Mercado Pago e Discord</title>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0c1527"/>
+    <stop offset="1" stop-color="#070d19"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#1f3355" stroke-width="0.6" opacity="0.45"/>
+  </pattern>
+  <clipPath id="cardClip"><rect width="860" height="356" rx="14"/></clipPath>
+  
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; }
+  .sans { font-family: system-ui,-apple-system,'Segoe UI','Inter','Helvetica Neue',Helvetica,Arial,sans-serif; }
+  .fade { opacity: 0; animation: fadeIn .5s ease-out forwards; }
+  .rise { opacity: 0; animation: rise .6s cubic-bezier(.2,.8,.2,1) forwards; }
+  .blink { animation: blink 1s steps(1) infinite; }
+  .pulse { animation: pulse 2s ease-in-out infinite; }
+  @keyframes fadeIn { to { opacity: 1; } }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; }
+  }
+</style>
+<g clip-path="url(#cardClip)">
+  <rect width="860" height="356" fill="url(#bgGrad)"/>
+  <rect width="860" height="356" fill="url(#grid)"/>
+  <text x="24" y="34" font-size="13" fill="#2dd4bf" font-weight="700" letter-spacing="1.5"><tspan fill="#4a5d7e">// </tspan>COMO MEUS PRODUTOS RODAM</text>
+  <g class="fade" style="animation-delay:.2s"><rect x="446" y="62" width="408" height="110" rx="12" fill="#14b8a6" fill-opacity=".04" stroke="#2dd4bf" stroke-opacity=".4" stroke-dasharray="5 5"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.5s" repeatCount="indefinite"/></rect><text x="460" y="76" font-size="10.5" fill="#2dd4bf" letter-spacing=".5">VPS · Cloudflare · Apache/Nginx</text></g>
+  <path id="p1" d="M180 121.0H240" fill="none" stroke="#1f3355" stroke-width="2"/>
+  <path d="M180 121.0H240" fill="none" stroke="#4a5d7e" stroke-width="2" stroke-dasharray="2 6"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/></path>
+  <path id="p2" d="M400 121.0H460" fill="none" stroke="#1f3355" stroke-width="2"/>
+  <path d="M400 121.0H460" fill="none" stroke="#4a5d7e" stroke-width="2" stroke-dasharray="2 6"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/></path>
+  <path id="p3" d="M620 121.0H680" fill="none" stroke="#1f3355" stroke-width="2"/>
+  <path d="M620 121.0H680" fill="none" stroke="#4a5d7e" stroke-width="2" stroke-dasharray="2 6"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/></path>
+  <path id="p4" d="M180 273.0H240" fill="none" stroke="#1f3355" stroke-width="2"/>
+  <path d="M180 273.0H240" fill="none" stroke="#4a5d7e" stroke-width="2" stroke-dasharray="2 6"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/></path>
+  <path id="p5" d="M400 273.0H510V158" fill="none" stroke="#1f3355" stroke-width="2"/>
+  <path d="M400 273.0H510V158" fill="none" stroke="#4a5d7e" stroke-width="2" stroke-dasharray="2 6"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/></path>
+  <path id="p6" d="M570 158V273.0H680" fill="none" stroke="#1f3355" stroke-width="2"/>
+  <path d="M570 158V273.0H680" fill="none" stroke="#4a5d7e" stroke-width="2" stroke-dasharray="2 6"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/></path>
+  <g class="fade" style="animation-delay:1.2s"><rect x="185.1" y="96.0" width="49.8" height="16" rx="8" fill="#0c1527"/><text x="210" y="108.0" font-size="10.5" fill="#8a9bb8" text-anchor="middle">evento</text></g>
+  <g class="fade" style="animation-delay:1.2s"><rect x="401.95" y="96.0" width="56.1" height="16" rx="8" fill="#0c1527"/><text x="430" y="108.0" font-size="10.5" fill="#8a9bb8" text-anchor="middle">licença</text></g>
+  <g class="fade" style="animation-delay:1.2s"><rect x="628.25" y="96.0" width="43.5" height="16" rx="8" fill="#0c1527"/><text x="650" y="108.0" font-size="10.5" fill="#8a9bb8" text-anchor="middle">query</text></g>
+  <g class="fade" style="animation-delay:1.2s"><rect x="185.1" y="248.0" width="49.8" height="16" rx="8" fill="#0c1527"/><text x="210" y="260.0" font-size="10.5" fill="#8a9bb8" text-anchor="middle">compra</text></g>
+  <g class="fade" style="animation-delay:1.2s"><rect x="441.95" y="195" width="56.1" height="16" rx="8" fill="#0c1527"/><text x="470" y="207" font-size="10.5" fill="#8a9bb8" text-anchor="middle">webhook</text></g>
+  <g class="fade" style="animation-delay:1.2s"><rect x="575.05" y="195" width="93.89999999999999" height="16" rx="8" fill="#0c1527"/><text x="622" y="207" font-size="10.5" fill="#8a9bb8" text-anchor="middle">entrega + log</text></g>
+  <g class="rise" style="animation-delay:0.30s"><rect x="20" y="84" width="160" height="74" rx="10" fill="#101c33" stroke="#60a5fa" stroke-opacity=".55"/><rect x="20" y="96" width="3" height="50" rx="1.5" fill="#60a5fa"/><text x="36" y="109" font-size="13.5" font-weight="700" class="sans" fill="#e6edf7">Jogador</text><text x="36" y="128" font-size="11" fill="#8a9bb8">cliente FiveM</text><text x="36" y="146" font-size="11" fill="#60a5fa">Lua · NUI</text></g>
+  <g class="rise" style="animation-delay:0.45s"><rect x="240" y="84" width="160" height="74" rx="10" fill="#101c33" stroke="#60a5fa" stroke-opacity=".55"/><rect x="240" y="96" width="3" height="50" rx="1.5" fill="#60a5fa"/><text x="256" y="109" font-size="13.5" font-weight="700" class="sans" fill="#e6edf7">Servidor do jogo</text><text x="256" y="128" font-size="11" fill="#8a9bb8">resources server-side</text><text x="256" y="146" font-size="11" fill="#60a5fa">Lua</text></g>
+  <g class="rise" style="animation-delay:0.60s"><rect x="460" y="84" width="160" height="74" rx="10" fill="#101c33" stroke="#2dd4bf" stroke-opacity=".55"/><rect x="460" y="96" width="3" height="50" rx="1.5" fill="#2dd4bf"/><text x="476" y="109" font-size="13.5" font-weight="700" class="sans" fill="#e6edf7">Nation API</text><text x="476" y="128" font-size="11" fill="#8a9bb8">auth e licenças</text><text x="476" y="146" font-size="11" fill="#2dd4bf">Node.js · Express</text></g>
+  <g class="rise" style="animation-delay:0.75s"><rect x="680" y="84" width="160" height="74" rx="10" fill="#101c33" stroke="#fbbf24" stroke-opacity=".55"/><rect x="680" y="96" width="3" height="50" rx="1.5" fill="#fbbf24"/><text x="696" y="109" font-size="13.5" font-weight="700" class="sans" fill="#e6edf7">Banco de dados</text><text x="696" y="128" font-size="11" fill="#8a9bb8">dados dos produtos</text><text x="696" y="146" font-size="11" fill="#fbbf24">MySQL · MariaDB</text></g>
+  <g class="rise" style="animation-delay:0.90s"><rect x="20" y="236" width="160" height="74" rx="10" fill="#101c33" stroke="#60a5fa" stroke-opacity=".55"/><rect x="20" y="248" width="3" height="50" rx="1.5" fill="#60a5fa"/><text x="36" y="261" font-size="13.5" font-weight="700" class="sans" fill="#e6edf7">Cliente</text><text x="36" y="280" font-size="11" fill="#8a9bb8">loja e checkout</text><text x="36" y="298" font-size="11" fill="#60a5fa">HTML · CSS · JS</text></g>
+  <g class="rise" style="animation-delay:1.05s"><rect x="240" y="236" width="160" height="74" rx="10" fill="#101c33" stroke="#a3e635" stroke-opacity=".55"/><rect x="240" y="248" width="3" height="50" rx="1.5" fill="#a3e635"/><text x="256" y="261" font-size="13.5" font-weight="700" class="sans" fill="#e6edf7">Mercado Pago</text><text x="256" y="280" font-size="11" fill="#8a9bb8">pagamentos</text><text x="256" y="298" font-size="11" fill="#a3e635">API + webhooks</text></g>
+  <g class="rise" style="animation-delay:1.20s"><rect x="680" y="236" width="160" height="74" rx="10" fill="#101c33" stroke="#a78bfa" stroke-opacity=".55"/><rect x="680" y="248" width="3" height="50" rx="1.5" fill="#a78bfa"/><text x="696" y="261" font-size="13.5" font-weight="700" class="sans" fill="#e6edf7">Discord</text><text x="696" y="280" font-size="11" fill="#8a9bb8">bot e webhooks</text><text x="696" y="298" font-size="11" fill="#a78bfa">entregas e logs</text></g>
+  <circle r="4" fill="#60a5fa" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="1.4s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="1.4s" repeatCount="indefinite" calcMode="linear"><mpath href="#p1"/></animateMotion></circle><circle r="9.6" fill="#60a5fa" opacity="0"><animate attributeName="opacity" values="0;.18;.18;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="1.4s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="1.4s" repeatCount="indefinite" calcMode="linear"><mpath href="#p1"/></animateMotion></circle>
+  <circle r="4" fill="#2dd4bf" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="2.0s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="2.0s" repeatCount="indefinite" calcMode="linear"><mpath href="#p2"/></animateMotion></circle><circle r="9.6" fill="#2dd4bf" opacity="0"><animate attributeName="opacity" values="0;.18;.18;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="2.0s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="2.0s" repeatCount="indefinite" calcMode="linear"><mpath href="#p2"/></animateMotion></circle>
+  <circle r="3" fill="#a3e635" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="2.8s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="2.8s" repeatCount="indefinite" calcMode="linear" keyPoints="1;0" keyTimes="0;1"><mpath href="#p2"/></animateMotion></circle><circle r="7.199999999999999" fill="#a3e635" opacity="0"><animate attributeName="opacity" values="0;.18;.18;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="2.8s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="2.8s" repeatCount="indefinite" calcMode="linear" keyPoints="1;0" keyTimes="0;1"><mpath href="#p2"/></animateMotion></circle>
+  <circle r="4" fill="#fbbf24" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="2.6s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="2.6s" repeatCount="indefinite" calcMode="linear"><mpath href="#p3"/></animateMotion></circle><circle r="9.6" fill="#fbbf24" opacity="0"><animate attributeName="opacity" values="0;.18;.18;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="2.6s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="2.6s" repeatCount="indefinite" calcMode="linear"><mpath href="#p3"/></animateMotion></circle>
+  <circle r="3" fill="#fbbf24" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="3.4s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="3.4s" repeatCount="indefinite" calcMode="linear" keyPoints="1;0" keyTimes="0;1"><mpath href="#p3"/></animateMotion></circle><circle r="7.199999999999999" fill="#fbbf24" opacity="0"><animate attributeName="opacity" values="0;.18;.18;0" keyTimes="0;.1;.85;1" dur="1.6s" begin="3.4s" repeatCount="indefinite"/><animateMotion dur="1.6s" begin="3.4s" repeatCount="indefinite" calcMode="linear" keyPoints="1;0" keyTimes="0;1"><mpath href="#p3"/></animateMotion></circle>
+  <circle r="4" fill="#60a5fa" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="1.8s" begin="1.8s" repeatCount="indefinite"/><animateMotion dur="1.8s" begin="1.8s" repeatCount="indefinite" calcMode="linear"><mpath href="#p4"/></animateMotion></circle><circle r="9.6" fill="#60a5fa" opacity="0"><animate attributeName="opacity" values="0;.18;.18;0" keyTimes="0;.1;.85;1" dur="1.8s" begin="1.8s" repeatCount="indefinite"/><animateMotion dur="1.8s" begin="1.8s" repeatCount="indefinite" calcMode="linear"><mpath href="#p4"/></animateMotion></circle>
+  <circle r="4" fill="#a3e635" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="2.4s" repeatCount="indefinite"/><animateMotion dur="2.4s" begin="2.4s" repeatCount="indefinite" calcMode="linear"><mpath href="#p5"/></animateMotion></circle><circle r="9.6" fill="#a3e635" opacity="0"><animate attributeName="opacity" values="0;.18;.18;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="2.4s" repeatCount="indefinite"/><animateMotion dur="2.4s" begin="2.4s" repeatCount="indefinite" calcMode="linear"><mpath href="#p5"/></animateMotion></circle>
+  <circle r="4" fill="#a78bfa" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="3.6s" repeatCount="indefinite"/><animateMotion dur="2.4s" begin="3.6s" repeatCount="indefinite" calcMode="linear"><mpath href="#p6"/></animateMotion></circle><circle r="9.6" fill="#a78bfa" opacity="0"><animate attributeName="opacity" values="0;.18;.18;0" keyTimes="0;.1;.85;1" dur="2.4s" begin="3.6s" repeatCount="indefinite"/><animateMotion dur="2.4s" begin="3.6s" repeatCount="indefinite" calcMode="linear"><mpath href="#p6"/></animateMotion></circle>
+  <text x="430.0" y="340" font-size="11" fill="#4a5d7e" text-anchor="middle">do código Lua dentro do jogo até a infraestrutura que mantém tudo no ar</text>
+</g>
+<rect x="0.5" y="0.5" width="859" height="355" rx="14" fill="none" stroke="#1f3355"/>
+</svg>

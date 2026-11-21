@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="219" height="40" viewBox="0 0 219 40" role="img" aria-label="LinkedIn: /in/yurisdl">
+<title>LinkedIn: /in/yurisdl</title>
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#60a5fa" stop-opacity="0"/><stop offset=".5" stop-color="#60a5fa" stop-opacity=".22"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/></linearGradient>
+  <clipPath id="c"><rect width="219" height="40" rx="8"/></clipPath>
+</defs>
+<style>text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; }</style>
+<g clip-path="url(#c)">
+  <rect width="219" height="40" fill="#070d19"/>
+  <rect x="-80" y="0" width="80" height="40" fill="url(#g)"><animate attributeName="x" values="-80;219;219" keyTimes="0;.4;1" dur="4s" repeatCount="indefinite"/></rect>
+  <g transform="translate(16,12)"><rect x="0" y="0" width="16" height="16" rx="3" fill="#60a5fa"/><rect x="3" y="6.5" width="2.4" height="6.5" fill="#070d19"/><circle cx="4.2" cy="4" r="1.4" fill="#070d19"/><path d="M7.2 6.5H9.5V7.6C10 6.8 10.9 6.3 12 6.3C13.6 6.3 14 7.4 14 9V13H11.6V9.5C11.6 8.7 11.4 8.2 10.7 8.2C9.9 8.2 9.6 8.8 9.6 9.6V13H7.2Z" fill="#070d19"/></g>
+  <text x="44" y="25" font-size="12.5" font-weight="700" fill="#60a5fa">LinkedIn<tspan fill="#8a9bb8" font-weight="400"> · /in/yurisdl</tspan></text>
+</g>
+<rect x=".5" y=".5" width="218" height="39" rx="8" fill="none" stroke="#60a5fa" stroke-opacity=".55"/>
+</svg>

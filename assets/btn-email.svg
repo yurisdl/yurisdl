@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="284" height="40" viewBox="0 0 284 40" role="img" aria-label="E-mail: yurilima01@hotmail.com">
+<title>E-mail: yurilima01@hotmail.com</title>
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/><stop offset=".5" stop-color="#2dd4bf" stop-opacity=".22"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></linearGradient>
+  <clipPath id="c"><rect width="284" height="40" rx="8"/></clipPath>
+</defs>
+<style>text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace; }</style>
+<g clip-path="url(#c)">
+  <rect width="284" height="40" fill="#070d19"/>
+  <rect x="-80" y="0" width="80" height="40" fill="url(#g)"><animate attributeName="x" values="-80;284;284" keyTimes="0;.4;1" dur="4s" repeatCount="indefinite"/></rect>
+  <g transform="translate(16,12)"><rect x="0" y="2" width="16" height="12" rx="2" fill="none" stroke="#2dd4bf" stroke-width="1.8"/><path d="M1 3.5L8 9L15 3.5" fill="none" stroke="#2dd4bf" stroke-width="1.8"/></g>
+  <text x="44" y="25" font-size="12.5" font-weight="700" fill="#2dd4bf">E-mail<tspan fill="#8a9bb8" font-weight="400"> · yurilima01@hotmail.com</tspan></text>
+</g>
+<rect x=".5" y=".5" width="283" height="39" rx="8" fill="none" stroke="#2dd4bf" stroke-opacity=".55"/>
+</svg>
