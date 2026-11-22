@@ -52,7 +52,7 @@ Sou desenvolvedor de software formado em **Ciência da Computação** e, há mai
 <p>Desenvolvimento e manutenção do sistema de garagem e gerenciamento de veículos dos jogadores, script exclusivo do servidor.</p>
 </td>
 <td width="50%" valign="top">
-<b>Chatbot de atendimento via WhatsApp com NLP</b><br/>
+<a href="https://github.com/yurisdl/whatsapp-bot"><b>Chatbot de atendimento via WhatsApp com NLP</b></a><br/>
 <sub>TCC · processamento de linguagem natural · e-commerce</sub>
 <p>Trabalho de conclusão de curso aplicando NLP ao atendimento de um e-commerce, fora do universo FiveM.</p>
 </td>
